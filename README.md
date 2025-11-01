@@ -11,34 +11,8 @@ Use your Client ID and Client Secret to request an access token via OAuth 2.0.
 Enter a name and description for your app, then click "Create".
 On your new app’s page, you’ll find your Client ID and Client Secret listed clearly.
 You can view the Client Secret by clicking “Show Client Secret” next to the hidden field
+You will get a file Main_Tera_3.csv
 
 Then After Extracting the data an excel file will be downloaded save it and move to google colab and then import spotipy
-then paste this query
-''' 
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
-
-# Replace these with your Spotify Developer credentials
-client_id = 'YOUR_CLIENT_ID'
-client_secret = 'YOUR_CLIENT_SECRET'
-
-# Authenticate
-auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
-sp = spotipy.Spotify(auth_manager=auth_manager)
-
-# Search for a track (replace with your desired track name)
-track_name = "Tum Hi Ho"
-results = sp.search(q=track_name, type='track', limit=1)
-
-# Extract album artwork URL for the first result
-if results['tracks']['items']:
-    track = results['tracks']['items'][0]
-    album_images = track['album']['images']
-    if album_images:
-        artwork_url = album_images[0]['url']  # Usually 640x640
-        print("Album artwork URL:", artwork_url)
-    else:
-        print("No album artwork found.")
-else:
-    print("No track found.")
-'''
+then paste the query as shown in above Spotify_API_Extraction_DataCleaning.ipynb You will get a new file of track_artworks.csv
+then clear all the unnecessary data and then merged that 2 files Main_Tera_3.csv and track_artworks.csv and create a new file merged_data.csv
