@@ -16,3 +16,13 @@ You will get a file Main_Tera_3.csv
 Then After Extracting the data an excel file will be downloaded save it and move to google colab and then import spotipy
 then paste the query as shown in above Spotify_API_Extraction_DataCleaning.ipynb You will get a new file of track_artworks.csv
 then clear all the unnecessary data and then merged that 2 files Main_Tera_3.csv and track_artworks.csv and create a new file merged_data.csv
+ Total 3 Dashboards are been made for this project 
+**Screenshot of dashboard:**  
+![Preview of Homepage](https://github.com/Arijeet226/My_Spotify_PowerBI_Dashboard_project5/blob/4ccb30b91b5d49001242c2b8d0a3e526cb8eb6fe/Assets/Screenshot%202025-11-01%20101505.png)
+
+![Preview of dashboard](https://github.com/Arijeet226/My_Spotify_PowerBI_Dashboard_project5/blob/4ccb30b91b5d49001242c2b8d0a3e526cb8eb6fe/Assets/Screenshot%202025-11-01%20101524.png)
+
+![Preview of dashboard](https://github.com/Arijeet226/My_Spotify_PowerBI_Dashboard_project5/blob/4ccb30b91b5d49001242c2b8d0a3e526cb8eb6fe/Assets/Screenshot%202025-11-01%20101539.png)
+
+![Preview of dashboard](https://github.com/Arijeet226/My_Spotify_PowerBI_Dashboard_project5/blob/4ccb30b91b5d49001242c2b8d0a3e526cb8eb6fe/Assets/Screenshot%202025-11-01%20101558.png)
+
