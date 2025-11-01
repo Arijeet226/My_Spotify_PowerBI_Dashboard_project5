@@ -44,6 +44,13 @@ Tempo: The speed of the track in beats per minute (BPM).
 Time Signature: Number of beats per bar (measure) in the track's rhythm.
 artwork_url: Contain the images of the album
 
+Then gave a prompt to Chatgpt to get measures related to this columns.Generate all important Power BI measures for my dataset "merged_data" in the following format:
+
+Each measure should be written inside DEFINE MEASURE 'merged_data'[Measure Name] = ...
+At the end, also include an EVALUATE SUMMARIZECOLUMNS( ... ) block listing all the measures in one
+output table. this are the columns in the csv file Track URI,Track Name,Album Name,Artist Name(s),Release Date,Duration (ms),Explicit,Added At,Record Label,Popularity,Danceability,Energy,Key,Loudness,Mode,
+Speechiness,Acousticness,Liveness,Valence,Tempo,Time Signature,artwork_url
+
 Total 3 Dashboards are been made for this project 
 **Screenshot of dashboard:**  
 ![Preview of Homepage](https://github.com/Arijeet226/My_Spotify_PowerBI_Dashboard_project5/blob/4ccb30b91b5d49001242c2b8d0a3e526cb8eb6fe/Assets/Screenshot%202025-11-01%20101505.png)
